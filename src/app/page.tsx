@@ -5,15 +5,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="bg-black text-white min-h-screen overflow-hidden">
-
-      {/* HEADER */}
-      <header className="flex justify-between items-center px-8 py-6">
-        <h1 className="text-xl font-bold tracking-wide">M Asif</h1>
-        <div className="text-sm text-gray-400">
-          Available for learning & projects
-        </div>
-      </header>
-
+      
       {/* HERO */}
       <section className="relative min-h-[85vh] flex items-center px-8">
         {/* Visual Circles */}
